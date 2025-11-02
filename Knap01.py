@@ -163,7 +163,7 @@ result_text_widget = tk.Text(result_frame, font=("Consolas", 10), wrap=tk.WORD,
                              bd=2, relief=tk.SUNKEN, padx=5, pady=5)
 result_text_widget.pack(side=tk.LEFT, fill=tk.BOTH, expand=True)
 
-initial_text = "Results will be shown here. \n(A graph will also appear)\n\n\n\n\n\nScrollable area for all selected item details."
+initial_text = "Results will be shown here. \n(A graph will also appear)."
 result_text_widget.insert(tk.END, initial_text)
 
 scrollbar.config(command=result_text_widget.yview)
